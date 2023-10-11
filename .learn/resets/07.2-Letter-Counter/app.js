@@ -3,8 +3,4 @@ let counts = {};
 
 // Your code here
 
-for (let letter of par.toLowerCase()) {
-    if (letter === " ") continue;
-    counts[letter] = (counts[letter] || 0) + 1;
-}
-console.log(counts); 
+console.log(counts);
